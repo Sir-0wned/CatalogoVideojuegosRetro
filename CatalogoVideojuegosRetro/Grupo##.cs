@@ -23,9 +23,6 @@ namespace CatalogoVideojuegosRetro
         }
 
 
-
-
-        
         public static string EstadisticaPrecio(ListaVideojuegos L)
         {
             if (L.EstaVacia())

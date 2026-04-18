@@ -8,7 +8,7 @@ namespace CatalogoVideojuegosRetro
 {
     internal class Grupo__
     {
-        //creacion de las clases asignadas
+        //1.ContarVideojuegos(L)
         public static int ContarVideojuegos(ListaVideojuegos L)
         {
             int contador = 0;
@@ -22,10 +22,19 @@ namespace CatalogoVideojuegosRetro
             return contador;
         }
 
+        //2.SonIguales(L1, L2)
 
+        //3.ConcatenarListas(L1, L2)
 
+        //4.InvertirLista(L) 
 
+        //5.OrdenarPorPrecio(L, tipo) 
 
+        //6.FiltrarPorGenero(L, genero)
+
+        //7.RestarCatalogos(L1, L2)
+
+        //8.EstadisticaPrecio(L)
         public static string EstadisticaPrecio(ListaVideojuegos L)
         {
             if (L.EstaVacia())
